@@ -2,7 +2,7 @@ class EventkitCli < Formula
   desc "Apple Reminders CLI built on EventKit for automation and AI agents"
   homepage "https://github.com/lokkaflokka/eventkit-cli"
   url "https://github.com/lokkaflokka/eventkit-cli/archive/refs/tags/v1.3.4.tar.gz"
-  sha256 "ddd63fb25df5f3ff9a1a38e5e36d51e87450d0e83c16c223243cc25d84feeb2a"
+  sha256 "ab3d2434ab27836d0a3cca11fa2eb40eaa0895071a700a9ead0b78e97eece741"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
