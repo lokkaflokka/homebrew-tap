@@ -1,8 +1,8 @@
 class EventkitCli < Formula
   desc "Apple Reminders CLI built on EventKit for automation and AI agents"
   homepage "https://github.com/lokkaflokka/eventkit-cli"
-  url "https://github.com/lokkaflokka/eventkit-cli/archive/refs/tags/v1.3.4.tar.gz"
-  sha256 "ab3d2434ab27836d0a3cca11fa2eb40eaa0895071a700a9ead0b78e97eece741"
+  url "https://github.com/lokkaflokka/eventkit-cli/archive/refs/tags/v1.3.5.tar.gz"
+  sha256 "071f8856d66774f41bb1dd2b77854989cc8f24b8695a3500d9c06cb596548b6e"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
@@ -14,6 +14,6 @@ class EventkitCli < Formula
   end
 
   test do
-    assert_match "eventkit 1.3.4", shell_output("#{bin}/eventkit --version")
+    assert_match "eventkit 1.3.5", shell_output("#{bin}/eventkit --version")
   end
 end
